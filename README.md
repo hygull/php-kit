@@ -198,6 +198,81 @@ Bangalore
 ?>
 ```
 
+##### static variable
+
+```php
+<?php
+/*
+	{
+		"createdOn": "08 Nov 2017, Wed",
+		"aim": "To demonstrate the use of static variables in PHP 5",
+		"codedBy": "Rishikesh Agrawani"
+	}
+*/
+
+function oddNumberPrinter() {
+	static $num = 1;
+	echo $num."\n";
+	$num += 2;
+}
+
+echo "4 ODD NUMBERS\n";
+oddNumberPrinter();
+oddNumberPrinter();
+oddNumberPrinter();
+oddNumberPrinter();
+?>
+
+<?php
+/*
+4 ODD NUMBERS
+1
+3
+5
+7
+
+*/
+?>
+
+```
+
+##### global keyword
+
+```php
+<?php
+/*
+	{
+		"createdOn": "08 Nov 2017, Wed",
+		"aim": "To demonstrate the use of global keyword in PHP 5",
+		"codedBy": "Rishikesh Agrawani"
+	}
+*/
+
+$name = "Rishikesh Agrawani";
+$age = 25;
+
+function printDetails() {
+	// If the following line is not there then $name & $age will be unavailable here
+	global $name, $age;
+
+	echo "My name is: ".$name, "\n";
+	print  "My age is: ".$age;
+}
+
+echo "DETAILS:-\n";
+printDetails();
+
+?>
+
+<?php
+/*
+DETAILS:-
+My name is: Rishikesh Agrawani
+My age is: 25
+*/
+?>
+```
+
 # Extra important links
 
 [References](https://github.com/hygull/php-kit/blob/master/docs/references.md)
