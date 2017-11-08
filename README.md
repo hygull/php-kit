@@ -312,11 +312,118 @@ It is nice book. It's cost is Rs. 500
 ?>
 ```
 
-##### Data type - string
+##### Data type - strings
 
 ```php
+<?php
+/*
+	{
+		"createdOn": "08 Nov 2017, Wed",
+		"aim": "Playing with strings",
+		"codedBy": "Rishikesh Agrawani"
+	}
+*/
+
+// Initializing strings
+$name = "Rishikesh Agrawani";
+$city = 'Bangalore';
+
+# Definition of message() function
+function message($name, $city) {
+	echo "My name is $name";
+	echo "\nI live in $city";
+}
+
+// Calling message() function 
+message($name, $city);
+?>
+
+<?php
+/*
+My name is Rishikesh Agrawani
+I live in Bangalore
+
+*/
+?>
 
 ```
+
+##### Data type - floats
+
+```php
+<?php
+/*
+	{
+		"createdOn": "08 Nov 2017, Wed",
+		"aim": "Playing with floats or doubles",
+		"codedBy": "Rishikesh Agrawani"
+	}
+*/
+
+// Initializing floats
+$pi = 3.14;
+$temperature = 80.67;
+
+# Definition of message() function
+function message($pi, $temperature) {
+	print "The value of PI is ".$pi;
+	echo "\nMy body's temperature is ", $temperature; 
+}
+
+// Calling message() function 
+message($pi, $temperature);
+?>
+
+<?php
+/*
+The value of PI is 3.14
+My body's temperature is 80.67
+*/
+?>
+```
+
+##### Data type - booleans
+
+```php
+<?php
+/*
+	{
+		"createdOn": "08 Nov 2017, Wed",
+		"aim": "Playing with booleans",
+		"codedBy": "Rishikesh Agrawani"
+	}
+*/
+
+// Initializing floats
+$iAmOld = false;
+$mathIsNice = TRUE;
+
+// echo $mathIsNice, "\n";	// "1"
+// echo $iAmOld;			// ""
+
+# Definition of message() function
+function message($boolValue) {
+	if($boolValue) {
+		echo "TRUE: ";
+	} else {
+		echo "FALSE: ";
+	}
+	echo "GOT value as ", (int)$boolValue, "\n";
+}
+
+// Calling message() function 
+message($iAmOld);
+message($mathIsNice);
+?>
+
+<?php
+/*
+FALSE: GOT value as 0
+TRUE: GOT value as 1
+*/
+?>
+```
+
 # Extra important links
 
 [References](https://github.com/hygull/php-kit/blob/master/docs/references.md)
