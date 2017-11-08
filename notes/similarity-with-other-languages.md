@@ -1,17 +1,17 @@
 # Javascript
 
-#### Operators
+## Operators
 
 ===
 
 !==
 
-#### keyword
+## keyword
 
 **function** keyword
 
 # Python
 
-#### Exponentiation operator
+## Exponentiation operator
 
 ** 
