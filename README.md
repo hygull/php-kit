@@ -312,6 +312,11 @@ It is nice book. It's cost is Rs. 500
 ?>
 ```
 
+##### Data type - string
+
+```php
+
+```
 # Extra important links
 
 [References](https://github.com/hygull/php-kit/blob/master/docs/references.md)
