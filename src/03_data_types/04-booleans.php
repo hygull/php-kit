@@ -7,7 +7,7 @@
 	}
 */
 
-// Initializing floats
+// Initializing booleans
 $iAmOld = false;
 $mathIsNice = TRUE;
 
