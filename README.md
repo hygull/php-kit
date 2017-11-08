@@ -2,7 +2,7 @@
 
 ```php
 <?php
-/**
+/*
 	{
 		"createdOn": "08 Nov 2017, Wed",
 		"aim": "To write hello world PHP script",

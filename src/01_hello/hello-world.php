@@ -1,5 +1,5 @@
 <?php
-/**
+/*
 	{
 		"createdOn": "08 Nov 2017, Wed",
 		"aim": "To write hello world PHP script",
@@ -16,5 +16,11 @@ $c = $a + $b;
 
 // Outputting final sum with some extra message 
 echo "Hello programers, the additon of $a and $b is ".$c."\n";
+
+?>
+
+<?php
+
+// Hello programers, the additon of 10 and 20 is 30
 
 ?>
