@@ -8,7 +8,7 @@
 */
 
 # Initializing variables $name, $NAME and $age
-# $name & $NAME both are different variables
+# $name &amp; $NAME both are different variables
 $name = "Rasmus Lerdorf";
 
 $NAME = "Guido Van Rossum";
