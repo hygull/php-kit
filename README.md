@@ -492,12 +492,12 @@ class Person {
 		echo "\nName: ", $this->name;
 		echo "\nAge: ", $this->age;
 
-		echo "\nLanguages known: \n";
+		echo "\nLanguages known:\n";
 		for($i = 0; $i < count($this->langs); $i++) {
 			echo $i + 1, " - ", $this->langs[$i], "\n";
 		}
 
-		echo "Hobbies \n";
+		echo "Hobbies:\n";
 		for($i = 0; $i < count($this->hobbies); $i++) {
 			echo $i + 1, " - ", $this->hobbies[$i], "\n";
 		}
@@ -524,7 +524,7 @@ Languages known:
 4 - Golang
 5 - PHP
 6 - Node.js
-Hobbies 
+Hobbies: 
 1 - Reading books
 2 - Playing chess
 3 - Watching cricket
